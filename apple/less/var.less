@@ -1,0 +1,31 @@
+html,body,p,h1,h2,h3,h4,h5,h6,ul,li{
+    margin:0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    color:#333;
+    text-decoration: none;
+}
+a img{
+    border:0;
+    display:block;
+}
+
+*{
+    box-sizing: border-box;
+}
+//阀值
+@smscreen:768px;
+@mdscreen:1000px;
+@lgscreen:1200px;
+
+//栅格数量
+@cols:20;
+//列间距
+@padding:0px;
+
+.pad(@padding){
+    padding-left:@padding;
+    padding-right:@padding;
+}
